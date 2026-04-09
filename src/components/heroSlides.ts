@@ -1,12 +1,12 @@
-/** Paths under `public/images/hero/`. Order: brand shot first, then uploads in batch order. */
+/** Carousel slides — files in `public/images/hero/`. */
 export const heroSlides = [
   {
     src: "/images/hero/slide-01.png",
     alt: "Henry Taxi — red taxi with palm trees in Nicaragua",
   },
   {
-    src: "/images/hero/slide-02.png",
-    alt: "Looking into an active volcanic crater with glowing lava",
+    src: "/images/hero/slide-17.png",
+    alt: "Travelers and driver smiling together on a tour",
   },
   {
     src: "/images/hero/slide-03.png",
@@ -65,7 +65,7 @@ export const heroSlides = [
     alt: "Family smiling inside a spacious passenger van",
   },
   {
-    src: "/images/hero/slide-17.png",
-    alt: "Travelers and driver smiling together on a tour",
+    src: "/images/hero/slide-02.png",
+    alt: "Looking into an active volcanic crater with glowing lava",
   },
 ] as const;
