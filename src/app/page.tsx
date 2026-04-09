@@ -23,23 +23,18 @@ export default function Home() {
 
       <header className="relative z-10">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6 sm:px-10">
-          <div className="animate-fade-in flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-700 text-lg font-bold text-white shadow-lg shadow-emerald-900/20">
-              H
-            </span>
-            <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-emerald-700/90">
-                Transport
-              </p>
-              <p className="text-sm font-bold tracking-tight text-emerald-950">
-                Henry Taxi Safe Nicaragua
-              </p>
-            </div>
+          <div className="animate-fade-in">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-emerald-700/90">
+              Transport
+            </p>
+            <p className="text-sm font-bold tracking-tight text-emerald-950">
+              Henry Taxi Safe Nicaragua
+            </p>
           </div>
           <div className="animate-fade-in flex items-center gap-2 sm:gap-3">
             <div className="hidden items-center gap-2 rounded-full border border-emerald-800/10 bg-white/60 px-4 py-2 text-xs font-medium text-emerald-800/90 shadow-sm backdrop-blur-md sm:flex">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
-              Nicaragua
+              Nicaragua · Costa Rica
             </div>
             <a
               href="https://wa.me/50582146285"
@@ -98,12 +93,18 @@ export default function Home() {
             </h1>
             <p className="max-w-xl text-pretty text-lg leading-relaxed text-[color:var(--muted)] sm:text-xl">
               Welcome to the Nicaragua, the land of lakes and volcanoes. We will
-              assist you all throughout Nicaragua.
+              assist you all throughout Nicaragua. When you need it, we also
+              offer transport from Costa Rica into Nicaragua—reach out to plan
+              your pickup and timing.
             </p>
           </div>
 
           <ul className="animate-fade-up animate-delay-200 flex flex-wrap gap-3 text-sm font-medium text-emerald-900/85">
-            {["Airport & hotel transfers", "City & day trips"].map((label) => (
+            {[
+              "Airport & hotel transfers",
+              "City & day trips",
+              "Costa Rica → Nicaragua",
+            ].map((label) => (
               <li
                 key={label}
                 className="inline-flex items-center gap-2 rounded-xl border border-emerald-800/8 bg-white/70 px-4 py-2.5 shadow-sm backdrop-blur-sm"

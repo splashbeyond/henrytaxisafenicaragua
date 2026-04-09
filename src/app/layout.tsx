@@ -9,9 +9,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Henry Taxi Safe Nicaragua | Reliable transport in Nicaragua",
+  title: "Henry Taxi Safe Nicaragua | Transport in Nicaragua & from Costa Rica",
   description:
-    "Welcome to Nicaragua, the land of lakes and volcanoes. Professional taxi and transport services throughout Nicaragua.",
+    "Welcome to Nicaragua, the land of lakes and volcanoes. Taxi and transport throughout Nicaragua, with trips from Costa Rica into Nicaragua when you need them.",
 };
 
 export default function RootLayout({
